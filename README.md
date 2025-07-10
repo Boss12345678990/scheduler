@@ -1,12 +1,44 @@
-# React + Vite
+# Dental Clinic Scheduler
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based scheduling system designed for a dental clinic to assign staff (Dental Assistants and Front Desk) to shifts (Morning, Afternoon, Evening) on a calendar view. Built to simplify and visualize the clinic's daily workforce planning.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interactive monthly calendar (with printing support)
+- Employee setup page for adding/removing staff
+- Smart validation:
+  - Warns if no dental assistants are scheduled
+  - Enforces at least 2 assistants for surgery shifts
+- Local storage persistence (no backend required)
+- Built with React, Vite, MUI, dayjs, and `react-big-calendar`
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – component-based UI
+- **Vite** – fast build tool
+- **MUI (Material UI)** – design system for modern UI
+- **dayjs** – lightweight date library
+- **react-big-calendar** – calendar component
+- **uuid** – unique IDs for employees
+- **localStorage** – persist schedule and employee data
+
+## How to Run Locally
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/dental-clinic-scheduler.git
+cd dental-clinic-scheduler
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+Visit http://localhost:5173
