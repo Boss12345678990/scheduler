@@ -29,16 +29,23 @@ A web-based scheduling system designed for a dental clinic to assign staff (Dent
 ```bash
 git clone https://github.com/YOUR_USERNAME/dental-clinic-scheduler.git
 cd dental-clinic-scheduler
-Install dependencies:
-
-bash
-Copy
-Edit
+```
+Then install dependencies:
+```bash
 npm install
+```
 Start the development server:
-
-bash
-Copy
-Edit
+```bash
 npm run dev
+```
 Visit http://localhost:5173
+
+## Motivation
+This scheduler was built to help manage staff assignments at my mom's dental clinic. It aims to reduce miscommunication, ensure surgery readiness, and provide a printable daily view of assignments.
+
+## Future Improvements
+1. Admin login
+2. Backend database integration
+3. Mobile-friendly responsive layout
+
+
